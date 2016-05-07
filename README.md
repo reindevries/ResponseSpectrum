@@ -36,3 +36,13 @@ The unit of time is assumed to be in seconds (s) and the unit of acceleration
 in metres per second squared (m/s^2). The output spectrum is the pseudo-
 acceleration response spectrum.
 ```
+
+## Compiling the code
+
+The source code can be compiled with any C++11 compatible compiler. In the source directory two folders are located (VS2015 and GNU), which contain the project file for Microsoft Visual Studio (Express) 2015 and a makefile for the GNU C++ compiler, respectively. For the latter `cd` into the GNU directory and type `make`, this will build the application for your platform.
+
+Note that in the release directory builds are available for Windows and Linux (Ubuntu platform), both 64-bit.
+
+## License
+
+This software uses the [GNU GPLv3](/LICENSE.md) license. In general terms it means that this license requires anyone who distributes the code, or a derivative work, to make the source available under the same terms (i.e. open-source software).
