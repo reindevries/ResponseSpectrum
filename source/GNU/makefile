@@ -1,6 +1,6 @@
 CC=g++
 CFLAGS=-c -Wall -std=c++11
-LDFLAGS=
+LDFLAGS=-fopenmp
 SOURCE_DIR=..
 SOURCES=$(wildcard $(SOURCE_DIR)/*.cpp)
 OBJECTS=$(patsubst $(SOURCE_DIR)/%.cpp,%.o,$(SOURCES))
